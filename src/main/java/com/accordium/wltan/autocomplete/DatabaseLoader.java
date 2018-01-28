@@ -15,7 +15,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 // TODO: Auto-generated Javadoc
 /**
- * The Class DatabaseLoader.
+ * DatabaseLoader will extract information from Booklist JSON and insert into database..
  */
 @Component
 public class DatabaseLoader implements CommandLineRunner {
