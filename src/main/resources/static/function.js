@@ -1,6 +1,6 @@
 $(document).ready(function() {
       $('#autocomplete-input').devbridgeAutocomplete({
-          serviceUrl: '/autocomplete/findall',
+          serviceUrl: '/autocomplete/books',
           paramName: 'author',
           minChars: 1,
           autoSelectFirst: true,

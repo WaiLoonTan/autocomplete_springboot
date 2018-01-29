@@ -30,7 +30,7 @@ public class AutoCompleteRestController {
 	 * @param author the author
 	 * @return the book list suggestion wrapper
 	 */
-	@RequestMapping(path = "/findall", method = RequestMethod.GET)
+	@RequestMapping(path = "/books", method = RequestMethod.GET)
 	public BookListSuggestionWrapper findAllBooks(@RequestParam("author") String author) {
 		//Step 1 : Call service to retrieve all book list
 		List<BookList> bookList = service.findAllBookList();
